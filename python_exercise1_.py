@@ -51,6 +51,13 @@ plt.show()
 
 
 #Exercise 3----------------------------------------------------------------
+# Exercice 3--------------------------------------------------------------------
+# White font and excluding the word THY
+canvas_width=1920
+canvas_height=1080 
+wordcloud = WordCloud(width=canvas_width,height=canvas_height).generate(text)
+stopwords = set(STOPWORDS)
+stopwords.add("_____")
 
 
 
