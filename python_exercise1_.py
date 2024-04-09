@@ -7,6 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1A82vkYQIiPuKBAJRp3raADooTBwZFd_R
 """
 
+
+#authors: OF
+#state: ongoing
+
+
 #Exercise 1----------------------------------------------------------------
 !pip install _________
 from wordcloud import WordCloud
@@ -25,3 +30,27 @@ plt.imshow(wordcloud)
 plt.axis("off")
 plt.tight_layout(pad = 0)
 plt.show()
+
+
+
+#authors: KR
+#state: ongoing
+
+
+#Exercise 2----------------------------------------------------------------
+
+
+
+
+
+
+
+
+#authors: TT
+#state: ongoing
+
+
+#Exercise 3----------------------------------------------------------------
+
+
+
