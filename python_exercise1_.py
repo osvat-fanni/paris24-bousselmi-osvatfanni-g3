@@ -49,8 +49,6 @@ plt.show()
 #authors: TT
 #state: ongoing
 
-
-#Exercise 3----------------------------------------------------------------
 # Exercice 3--------------------------------------------------------------------
 # White font and excluding the word THY
 canvas_width=1920
