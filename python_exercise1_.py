@@ -58,6 +58,12 @@ canvas_height=1080
 wordcloud = WordCloud(width=canvas_width,height=canvas_height).generate(text)
 stopwords = set(STOPWORDS)
 stopwords.add("_____")
-
+wordcloud = WordCloud(stopwords=stopwords,background_color='_____',random_state=1,colormap='hot',max_font_size=800,min_font_size=20,width=canvas_width,height=canvas_height).generate(text)
+wordcloud.to_file("simple_wordcloud.png") 
+plt.figure(figsize = (10, 10), facecolor=None)
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off") 
+plt.tight_layout(pad = 0)
+plt.show() 
 
 
